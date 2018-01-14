@@ -1,0 +1,221 @@
+body{
+	background-color: #f8eeb8;
+	font-family: Georgia, "Times New Roman",serif;
+	text-decoration: none;
+}
+
+header.top {
+  margin: 10px 10px 0px 10px;
+  text-align:center;
+} 
+
+
+h2{
+	text-align: center;	
+	color: #400000;	
+}
+
+h2#c{
+	text-align: left;
+	margin-left: 35%;
+}
+
+h3{
+	text-align: center;	
+	color: #400000;
+}
+
+h4{
+	text-align: center;	
+	color: #a40000;
+}
+
+
+nav {
+    background-color: #e8d9b9;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+.right {
+    float: right;
+    padding-top: 0px;
+    color: #c09861;
+}
+
+nav ul li a:link, nav ul li a:visited {
+	color: #643333;
+	border-bottom: none;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px #e2c2c2; 
+
+}
+
+div#benvenuto{
+	text-align: center;
+	color: #400000;
+	font-size: 150%;
+}
+
+div#contatti{
+	text-align: center;
+	font-size: 200%;
+}
+
+aside {
+  text-align: center;
+  display: block;
+  background: #efe5d0;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+  float: right;
+  margin-right: 10%px;
+}
+
+div#cit img{
+	margin-left: 10%px;
+	width: 50%;
+	max-width: 50%;
+}
+
+div.descrizione{
+	text-align: center;
+	font-size: 120%;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+div.descrizione img#int {
+	float: right;
+	margin-left: 100px;	
+} 
+
+
+li.selected {
+	background-color: #c8b99c;
+}
+
+img#cart{
+	width: 80%;
+}
+
+a:link {
+  color:         #742f0e;
+  text-decoration:  none;
+}
+
+a:visited{
+	color:         #742f0e;
+}
+
+a:visited.admin {
+	color: #a40000;
+}
+
+a:link.admin {
+	color: #a40000;
+}
+
+table {
+	width: 50%;
+	margin-left:25%;
+}
+table, th, td {
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-top:50px;
+}
+
+th, td {
+	padding: 10px;
+	margin: 10px;
+}
+
+table#pres {
+	width: 90%;
+	margin-left: 5%;
+}
+
+
+
+label {
+	font-weight: bold;
+}
+
+table#accesso {
+	  width: 10%;
+	  margin-left:42%;
+	  border: none;
+}
+
+table#accesso th, td{
+	 border: none;	
+} 
+
+td#err{
+	color:  #a40000;
+}
+
+table#utenti{
+	width: 70%;
+}
+
+div#cerca {
+	margin-left: 25%;
+}
+
+div#libro {
+	float: left;
+	margin-left: 10%;
+	margin-right: 30px;
+	margin-top: 40px;
+	
+}
+
+ul#dettagli{
+	margin-top: 60px;
+}
+
+
+div#reg{
+	float:left;
+	margin-left: 10px;
+}
+
+div#ordine{
+	margin-top: 7%;
+	margin-right: 14%;
+	float: right;
+}
+
+table.carr {
+	margin-left: 15%;
+}
+
+#submit {
+  background: url('../immagini/submit.png') no-repeat center ;
+  border: none;       
+  color: #fff;        
+  font-weight: bold;  
+  padding: 0;       
+  height: 50px;     
+  width: 150px;   
+}
+
+.submit1{
+	background: url('../immagini/submit.png') no-repeat center ;
+	border: none;      
+    color: #fff; 
+    font-weight: bold;  
+      
+}
